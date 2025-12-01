@@ -10,4 +10,9 @@
     <ProjectReference Include="..\Project.Dal\Project.Dal.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Managers\Abstracts\" />
+    <Folder Include="Managers\Concretes\" />
+  </ItemGroup>
+
 </Project>
