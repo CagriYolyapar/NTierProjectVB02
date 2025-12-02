@@ -1,0 +1,18 @@
+﻿ 1 => Domain Entityler'in kalanlarını API projesinde Category'e uyguladıgımız gibi Crud sistemine sokunuz...
+
+ 2 => Fluent Validation konusu arastırılsın...Request Modellere entegre edilsin...
+
+ 3 => Business Logic (Manager'lara ) Delegateler eşliğinde hata yönetimi mekanizmaları yazılsın
+
+ 4 => Author, Book, Category, Tag  class semasını bu mimaride bastan kurunuz...
+
+ 1 Author      n Book
+ 1 Book        1 Author
+
+
+ 1 Category       n Book
+ 1 Book          1 Category
+
+
+ 1 Book            n Tag
+ 1 Tag             n Book
