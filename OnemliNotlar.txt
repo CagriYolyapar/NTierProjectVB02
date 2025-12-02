@@ -1,0 +1,7 @@
+﻿Domain Entity : Data Access Logic (Tamamen Crud mantıgı, baska bir mantıkla ilgilenmeyecek)
+
+
+DTO(Data Transfer Object) : Transfer edilen nesneler üzerinde yapılması gereken iş mantıgı (Business Logic)...Bu da baska bir işle ilgilenmez
+
+
+ViewModel(RequestModel/ResponseModel) : Validation logic ile ilgilenen kavramlardır...

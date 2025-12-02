@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.Entities.Models
+namespace Project.Bll.Dtos
 {
-    public abstract class BaseEntity
+    public interface IDto
     {
-       
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }

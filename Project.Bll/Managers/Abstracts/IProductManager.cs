@@ -5,11 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.Dal.Repositories.Abstracts
+namespace Project.Bll.Managers.Abstracts
 {
-    public interface IAppUserRepository : IRepository<AppUser>
+    public interface IProductManager : IManager<Product>
     {
-
-      
     }
 }

@@ -9,13 +9,12 @@ using System.Threading.Tasks;
 
 namespace Project.Dal.Repositories.EFConcretes
 {
-    public class AppUserRepository(MyContext context) : BaseRepository<AppUser>(context) , IAppUserRepository
+    public class AppUserRepository(MyContext context) : BaseRepository<AppUser>(context), IAppUserRepository
     {
         //public AppUserRepository(MyContext context) : base(context)
         //{
 
         //}
-
-
+     
     }
 }
